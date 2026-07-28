@@ -60,7 +60,7 @@
 # YOUR CODE BELOW — remove the # symbols from the scaffold and fill it in
 # =============================================================================
 
-<<<<<<< HEAD
+
 def print_matrix(matrix):
     """Prints a 2D list in a formatted grid."""
     for row in matrix:
@@ -132,5 +132,4 @@ if __name__ == "__main__":
     
     print("\nTransposed Matrix:")
     print_matrix(transpose(mat1))
-=======
->>>>>>> 97283b270afe17478168d7dd683733c3b0bedd2a
+

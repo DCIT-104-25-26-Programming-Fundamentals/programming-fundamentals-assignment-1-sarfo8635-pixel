@@ -68,7 +68,6 @@
 # YOUR CODE BELOW — remove the # symbols from the scaffold and fill it in
 # =============================================================================
 
-<<<<<<< HEAD
 def add(a, b):
     return a + b
 
@@ -140,5 +139,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-=======
->>>>>>> 97283b270afe17478168d7dd683733c3b0bedd2a

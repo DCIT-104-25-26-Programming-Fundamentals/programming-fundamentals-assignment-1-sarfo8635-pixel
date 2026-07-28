@@ -55,7 +55,6 @@
 # YOUR CODE BELOW — remove the # symbols from the scaffold and fill it in
 # =============================================================================
 
-<<<<<<< HEAD
 def print_single_table(num):
     # Prints the multiplication table for a single number from 1 to 12."""
     if num <= 0:
@@ -91,5 +90,3 @@ if __name__ == "__main__":
     print("=== PART B: Tables 1 to N ===")
     n = int(input("Enter N: "))
     print_all_tables(n)
-=======
->>>>>>> 97283b270afe17478168d7dd683733c3b0bedd2a

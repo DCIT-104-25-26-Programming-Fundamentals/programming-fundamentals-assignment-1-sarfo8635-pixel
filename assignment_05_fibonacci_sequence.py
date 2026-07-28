@@ -49,7 +49,7 @@
 # YOUR CODE BELOW — remove the # symbols from the scaffold and fill it in
 # =============================================================================
 
-<<<<<<< HEAD
+
 def print_fibonacci_terms(n):
     """Generates and prints the first N Fibonacci numbers."""
     if n <= 0:
@@ -90,5 +90,4 @@ if __name__ == "__main__":
         print(f"{num} is a Fibonacci number.")
     else:
         print(f"{num} is NOT a Fibonacci number.")
-=======
->>>>>>> 97283b270afe17478168d7dd683733c3b0bedd2a
+

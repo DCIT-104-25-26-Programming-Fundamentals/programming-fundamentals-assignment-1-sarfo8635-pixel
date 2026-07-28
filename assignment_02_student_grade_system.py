@@ -1,43 +1,5 @@
-<<<<<<< HEAD
-def get_grade(score):
-    """
-    Determines the letter grade for a given score.
-    Returns None if the score is outside the range 0 to 100.
-    """
-    # Range validation check
-    if score < 0 or score > 100:
-        return None
-    
-    # Grade scale logic
-    if score >= 80:
-        return 'A'
-    elif score >= 70:
-        return 'B'
-    elif score >= 60:
-        return 'C'
-    elif score >= 50:
-        return 'D'
-    else:
-        return 'F'
 
 
-def main():
-    """
-    Handles user input, calls get_grade(), and outputs the result or error.
-    """
-    score = float(input("Enter student score (0-100): "))
-    
-    grade = get_grade(score)
-    
-    if grade is None:
-        print("Error: Score must be between 0 and 100.")
-    else:
-        print(f"Grade: {grade}")
-
-
-if __name__ == "__main__":
-    main()
-=======
 # =============================================================================
 # PROGRAMMING FUNDAMENTALS — Assignment 2
 # Topic: Conditional Logic (if / elif / else) and Functions
@@ -85,4 +47,41 @@ if __name__ == "__main__":
 # YOUR CODE BELOW — remove the # symbols from the scaffold and fill it in
 # =============================================================================
 
->>>>>>> 97283b270afe17478168d7dd683733c3b0bedd2a
+def get_grade(score):
+    """
+    Determines the letter grade for a given score.
+    Returns None if the score is outside the range 0 to 100.
+    """
+    # Range validation check
+    if score < 0 or score > 100:
+        return None
+    
+    # Grade scale logic
+    if score >= 80:
+        return 'A'
+    elif score >= 70:
+        return 'B'
+    elif score >= 60:
+        return 'C'
+    elif score >= 50:
+        return 'D'
+    else:
+        return 'F'
+
+
+def main():
+    """
+    Handles user input, calls get_grade(), and outputs the result or error.
+    """
+    score = float(input("Enter student score (0-100): "))
+    
+    grade = get_grade(score)
+    
+    if grade is None:
+        print("Error: Score must be between 0 and 100.")
+    else:
+        print(f"Grade: {grade}")
+
+
+if __name__ == "__main__":
+    main()

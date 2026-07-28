@@ -90,7 +90,6 @@
 # YOUR CODE BELOW — remove the # symbols from the scaffold and fill it in
 # =============================================================================
 
-<<<<<<< HEAD
 def add_student(students):
     #Prompts for student details and appends record dictionary to list."""
     name = input("Student name: ").strip()
@@ -177,5 +176,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-=======
->>>>>>> 97283b270afe17478168d7dd683733c3b0bedd2a
