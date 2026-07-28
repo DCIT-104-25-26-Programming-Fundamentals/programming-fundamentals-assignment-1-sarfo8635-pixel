@@ -35,6 +35,7 @@
 # YOUR CODE BELOW — remove the # symbols from the scaffold and fill it in
 # =============================================================================
 
+<<<<<<< HEAD
 def is_prime(number):
     """
     Checks if a number is prime.
@@ -61,3 +62,5 @@ if __name__ == "__main__":
         print(f"{user_input} is a prime number.")
     else:
         print(f"{user_input} is NOT a prime number.")
+=======
+>>>>>>> 97283b270afe17478168d7dd683733c3b0bedd2a
